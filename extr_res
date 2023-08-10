@@ -1,0 +1,12 @@
+#El comando es:  gawk -f extr_res < main.out > residual_plot.out
+
+BEGIN { FIELDWIDTHS = "8 7 9 31 13 13";contador=-1 }
+{
+        if($5=="RMS RESIDUAL=")
+        {
+                contador++;
+                printf(" %d  %s\n",contador,$6);
+        }
+
+}
+

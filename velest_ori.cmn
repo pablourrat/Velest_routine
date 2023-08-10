@@ -1,0 +1,107 @@
+******* CONTROL-FILE FOR PROGRAM  V E L E S T  (28-SEPT1993) *******
+***
+*** ( all lines starting with  *  are ignored! )
+*** ( where no filename is specified, 
+***   leave the line BLANK. Do NOT delete!)
+***
+*** next line contains a title (printed on output):
+Edit this line as you prefer
+***
+***  olat       olon   icoordsystem      zshift   itrial ztrial    ised
+     -37.8423   71.1345      0            2.0       0     0.00       0
+***
+*** neqs   nshot   rotate
+     242      0      0.0
+***
+*** isingle   iresolcalc
+       0          0
+***
+*** dmax    itopo    zmin     veladj    zadj   lowveloclay
+    150.0     0      0.0      0.2       0.5        1
+***
+*** nsp    swtfac   vpvs       nmod
+     2      0.50    1.78        1
+***
+***   othet   xythet    zthet    vthet   stathet
+      0.01    0.01      0.01     00.1     00.1
+***
+*** nsinv   nshcor   nshfix     iuseelev    iusestacorr
+       1       0       0           1            1
+***
+*** iturbo    icnvout   istaout   ismpout
+       0         1         1         1
+***
+*** irayout   idrvout   ialeout   idspout   irflout   irfrout   iresout
+       0         0         0         0         0         0         0
+***
+*** delmin   ittmax   invertratio
+     0.01      7          2
+***
+*** Modelfile:
+input_velocity_model_file
+***
+*** Stationfile:
+input_station_file
+***
+*** Seismofile:
+                                                                                
+***
+*** File with region names:
+
+***
+*** File with region coordinates:
+
+***
+*** File #1 with topo data:
+                                                                                
+***
+*** File #2 with topo data:
+                                                                                
+***
+*** DATA INPUT files:
+***
+*** File with Earthquake data:
+input_earthquake_file
+***
+*** File with Shot data:
+                                                                                
+***
+*** OUTPUT files:
+***
+*** Main print output file:
+main_output
+***
+*** File with single event locations:
+
+***
+*** File with final hypocenters in *.cnv format:
+hypocenter_output
+***
+*** File with new station corrections:
+station_output
+***
+*** File with summary cards (e.g. for plotting):
+summary_plot_output          
+***
+*** File with raypoints:
+
+***
+*** File with derivatives:
+
+***
+*** File with ALEs:
+
+***
+*** File with Dirichlet spreads:
+CALDIRSPRED.DIS
+***
+*** File with reflection points:
+
+***
+*** File with refraction points:
+
+***
+*** File with residuals:
+
+***
+******* END OF THE CONTROL-FILE FOR PROGRAM  V E L E S T  *******
