@@ -1,6 +1,11 @@
 # Velest Routine
 Routine to iteratively run Velest on Ubuntu (tested in Ubuntu 20.04 LTS), saving a record of program outputs and inputs in each iteration.
 
+**VERSION:** 1.0.0
+
+**AUTHOR:**  Pablo Urra-Tapia - <pablourra2016@udec.cl> - [GitHub](https://github.com/pablourrat)
+
+**LICENSE:**  GNU-GPL v3
 ## Velest_routine
 
 Velest_routine utilizes a copy of the input files and modifications of the control file velest_ori.cmn, updating the file names in the input and output files in each iteration. For example:
